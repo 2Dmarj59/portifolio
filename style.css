@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root {
+    --cor-principal: #c8c3a5;
+    --cor-secundaria: #909090;
+    --cor-destaque: #d0b9b9;
+}
+
+body {
+    font-family: 'Satisfy', cursive;
+    background-color: black;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 1000;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+p {
+    color: var(--cor-destaque);
+}
+
+div {
+    background-color: black;
+}
